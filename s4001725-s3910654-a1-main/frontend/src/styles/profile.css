@@ -1,0 +1,137 @@
+body {
+    background-image: linear-gradient(#e1ebf5, #7eaee8 );
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page-wrapper {
+    background-image: linear-gradient(#e1ebf5, #7eaee8 );
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .profile-container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
+  .loading-container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+  
+  .loading-text {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-section {
+    margin-bottom: 24px;
+  }
+  
+  .welcome-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(24, 36, 92);
+    line-height: 1.2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-subtitle {
+    color: rgb(88, 107, 199);
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  
+  .profile-card {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    background: rgb(140, 170, 224);
+    border: none;
+    backdrop-filter: blur(10px);
+    padding-bottom: 40px;
+  }
+  
+  .profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: stretch;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header {
+    text-align: center;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #31538a;
+    margin-top: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .user-type-badge {
+    background-color: #DBEAFE;
+    color: #1E40AF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+  
+  .profile-info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+  
+  .section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6B7280;
+    margin-bottom: 8px;
+  }
+  
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 0;
+  }
+  
+  .info-label {
+    font-weight: 500;
+    color: #374151;
+    font-size: 15px;
+  }
+  
+  .info-value {
+    color: #6B7280;
+    font-size: 15px;
+    text-align: right;
+  }
+  
+  .role-badge {
+    background-color: #D1FAE5;
+    color: #059669;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 6px;
+    display: inline-block;
+  }
+  
+ 

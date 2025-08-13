@@ -1,0 +1,101 @@
+.tutors-container {
+    flex: 3;
+    padding: 18px;
+    background-image: linear-gradient(#e1ebf5, #7eaee8 );
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.header h1{
+    border-radius: 15px; 
+    padding: 22px 30px;
+    display: inline-block;
+    margin: 16px auto;
+    text-align: center;
+    background-color: #76a5fcbf;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header p {
+    padding: 60px;
+    line-height: 2.5;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.qualities {
+    padding: 50px; 
+    margin-left: 100px;
+    background-color: #76a5fcbf;
+    margin-right: 580px;
+    border-radius: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.qualities-eligibility {
+    margin-bottom: 20px;
+}
+
+.qualities-skills {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.qualities-text {
+    font-size: 17px;
+    font-weight: 470;
+}
+
+.info-box {
+    width: 300px;
+    padding: 30px;
+    background-color: #76a5fcbf;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    right: 170px;
+    top: 100px;
+    margin-top: 750px;
+    font-size: 17px;
+    font-weight: 470;
+}
+
+.info-heading {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.info-text {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.apply-button {
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 25;
+  }
+  
+.apply-button button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: rgb(24, 36, 92);
+    background: #f9fcffa8;
+    font-size: 27px;
+    padding: 35px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.apply-button button:hover {
+    background: #1d416c;
+    color: #f9fcff;
+  }
+

@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+body, html {
+  background-color: #90CDF4;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  background-image: linear-gradient(#e1ebf5, #7eaee8 );
+}
+
+.formHeading {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.formFields {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.formControl {
+  width: 110%;
+}
+
+.formButton {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.formButton button {
+  background: #17558eca;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.formButton button:hover {
+  background: #2b6cb0;
+}
+
+.formLink {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.formLink span {
+  color: #03203a;
+  cursor: pointer;
+}
+
+.formLink span:hover {
+  color: #2b6cb0;
+}
+

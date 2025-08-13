@@ -1,0 +1,473 @@
+.lecturers-container {
+    padding: 24px;
+  }
+  
+  .header-section {
+    margin-bottom: 24px;
+  }
+  
+  .dashboard-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #2563EB;
+    text-align: center;
+  }
+  
+  .assigned-courses-text {
+    color: #6B7280;
+    margin-bottom: 16px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .stats-badges {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .stats-badge {
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .total-badge {
+    background-color: #DBEAFE;
+    color: #1E40AF;
+  }
+  
+  .selected-badge {
+    background-color: #D1FAE5;
+    color: #059669;
+  }
+  
+  .filtered-badge {
+    background-color: #FED7AA;
+    color: #EA580C;
+  }
+  
+  .section-divider {
+    margin-bottom: 24px;
+    border-color: #E5E7EB;
+  }
+  
+  .search-filters-section {
+    margin-bottom: 24px;
+  }
+  
+  .section-title {
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-left: 25px;
+    color: #374151;
+  }
+  
+  .search-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+  
+  .search-row {
+    display: flex;
+    gap: 16px;
+    align-items: end;
+  }
+  
+  .search-input-container {
+    flex: 2;
+    padding: 10px;
+  }
+  
+  .search-category-container {
+    flex: 1;
+  }
+  
+  .control-label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #374151;
+    font-size: 15px;
+  }
+  
+  .search-icon {
+    pointer-events: none;
+    color: #9CA3AF;
+  }
+  
+  .search-input,
+  .search-category-select,
+  .course-filter-select,
+  .sort-by-select,
+  .sort-order-select {
+    border-color: #93C5FD !important;
+    border-width: 1px;
+    border-radius: 6px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .search-input:focus,
+  .search-category-select:focus,
+  .course-filter-select:focus,
+  .sort-by-select:focus,
+  .sort-order-select:focus {
+    border-color: #2563EB !important;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+  
+  .filter-sort-row {
+    display: flex;
+    gap: 16px;
+    align-items: end;
+  }
+  
+  .course-filter-container {
+    flex: 1;
+  }
+  
+  .sort-container {
+    flex: 1;
+  }
+  
+  .sort-controls {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .sort-by-select {
+    flex: 1;
+  }
+  
+  .sort-order-select {
+    width: 100px;
+  }
+  
+  .no-applicants {
+    text-align: center;
+    padding: 32px 0;
+  }
+  
+  .no-applicants-main {
+    font-size: 18px;
+    color: #6B7280;
+    margin-bottom: 8px;
+  }
+  
+  .no-applicants-sub {
+    color: #9CA3AF;
+    font-size: 14px;
+  }
+  
+  .applicant-card {
+    margin-bottom: 16px;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: #E5E7EB;
+    background: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+  }
+  
+  .applicant-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: #93C5FD;
+  }
+  
+  .applicant-card.selected {
+    border-color: #10B981;
+    background-color: #F0FDF4;
+  }
+  
+  .applicant-card.dragging {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    background-color: #EFF6FF;
+  }
+  
+  .applicant-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .applicant-info {
+    flex: 1;
+    margin-right: 16px;
+  }
+  
+  .selection-badge {
+    margin-bottom: 12px;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 6px;
+  }
+  
+  .selection-badge.most-selected {
+    background-color: #D1FAE5;
+    color: #059669;
+  }
+  
+  .selection-badge.least-selected {
+    background-color: #FED7AA;
+    color: #EA580C;
+  }
+  
+  .selection-badge.not-selected {
+    background-color: #F3F4F6;
+    color: #6B7280;
+  }
+  
+  .applicant-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .applicant-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2563EB;
+    margin-bottom: 4px;
+  }
+  
+  .detail-item {
+    font-size: 15px;
+    color: #374151;
+    line-height: 1.5;
+  }
+  
+  .availability-badge {
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .availability-badge.full-time {
+    background-color: #D1FAE5;
+    color: #059669;
+  }
+  
+  .availability-badge.part-time {
+    background-color: #DBEAFE;
+    color: #1E40AF;
+  }
+  
+  .comments-section {
+    margin-top: 16px;
+    padding: 12px;
+    background-color: #F9FAFB;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #E5E7EB;
+  }
+  
+  .comments-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #374151;
+    font-size: 15px;
+  }
+  
+  .comment-edit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: stretch;
+  }
+  
+  .comment-textarea {
+    border-radius: 6px;
+    border-color: #D1D5DB;
+    font-size: 15px;
+  }
+  
+  .comment-textarea:focus {
+    border-color: #2563EB;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+  
+  .comment-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .save-comment-btn {
+    background-color: #10B981;
+    color: white;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .save-comment-btn:hover {
+    background-color: #059669;
+  }
+  
+  .cancel-comment-btn {
+    background-color: transparent;
+    color: #6B7280;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .cancel-comment-btn:hover {
+    background-color: #F9FAFB;
+    border-color: #9CA3AF;
+  }
+  
+  .comment-display {
+    padding: 8px;
+    background: white;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #D1D5DB;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .comment-display:hover {
+    border-color: #60A5FA;
+    background-color: #EFF6FF;
+  }
+  
+  .comment-text {
+    font-size: 14px;
+  }
+  
+  .comment-text.has-comment {
+    color: #374151;
+  }
+  
+  .comment-text.no-comment {
+    color: #9CA3AF;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    align-items: center;
+  }
+  
+  .select-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  
+  .select-btn.select {
+    background-color: #10B981;
+    color: white;
+  }
+  
+  .select-btn.select:hover {
+    background-color: #059669;
+  }
+  
+  .select-btn.deselect {
+    background-color: #EF4444;
+    color: white;
+  }
+  
+  .select-btn.deselect:hover {
+    background-color: #DC2626;
+  }
+  
+  .selection-count {
+    background-color: #DDD6FE;
+    color: #7C3AED;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  /* Ranking Controls */
+  .ranking-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .rank-label {
+    font-size: 12px;
+    color: #9CA3AF;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .rank-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  
+  .rank-btn.up {
+    background-color: #2563EB;
+    color: white;
+  }
+  
+  .rank-btn.up:hover:not(:disabled) {
+    background-color: #1D4ED8;
+  }
+  
+  .rank-btn.down {
+    background-color: #2563EB;
+    color: white;
+  }
+  
+  .rank-btn.down:hover:not(:disabled) {
+    background-color: #1D4ED8;
+  }
+  
+  .rank-btn:disabled {
+    background-color: #F3F4F6;
+    color: #D1D5DB;
+    cursor: not-allowed;
+  }
+  
+  .rank-number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2563EB;
+    padding: 4px 0;
+    text-align: center;
+  }
+  
+  .drag-hint {
+    font-size: 12px;
+    color: #9CA3AF;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  

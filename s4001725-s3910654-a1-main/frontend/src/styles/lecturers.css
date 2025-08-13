@@ -1,0 +1,55 @@
+.lecturers-container {
+    padding: 20px;
+    background-image: linear-gradient(#e1ebf5, #7eaee8 );
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.search-input {
+    max-width: none;
+}
+
+.course-select {
+    width: 200px;
+}
+
+.applicant-list {
+    margin-top: 20px;
+}
+
+.applicant-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.applicant-item button {
+    margin-top: 10px;
+}
+
+.ranking {
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.ranking textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ranking .applicant-item {
+    background-color: #d8e2dc;
+}
